@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+API_ID = os.getenv("API_ID", "8186557").strip()
+API_HASH = os.getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7266480121:AAF0q4eNf64N6M6jJ3rWum8Ute63zmqCWKc").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip() # Not a necessary variable anymore but you can add to get stats
-MUST_JOIN = os.getenv("MUST_JOIN", "Flukosaa")
+MUST_JOIN = os.getenv("MUST_JOIN", "mmmsc")
 
 if not API_ID:
     raise SystemExit("No API_ID found. Exiting...")
